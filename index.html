@@ -1,35 +1,99 @@
-<!doctype.HTML>
+<!doctype HTML>
 <html>
- <head>
-    <meta name="viewport" content="width=device-width, intial-scale=1.0" charse="utf-8">
-     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-     <link href="css/style.css" rel="stylesheet" type="text/css">
-     <title> my first bootstrap</title>
-    </head>
-    <body>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="js.bootstrap.js"></script>
-        <div class="navbar navbar-inverse navbar-static-top">
-            <div class="container">
-                <a href="#" class="navbar-brand">Theres Ya Boii</a>
-                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+   <link href="css/myStyle.css" rel="stylesheet" type="text/css"/>
+   <title>Bootstrap 3 Tutorial</title>
+</head>
+<body>
+         <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <a href="g" class="navbar-brand">Not permanant</a>
+            <!--This is where the collapsable button goes-->
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navhHeaderCollapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-                </button>
-            <div class ="collapse navbar-collapse navHeaderCollapse">
+            </button>
+              <div class="collapse navbar-collapse navHeaderCollapse">
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Information</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Gallery</a></li>
                     <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HTML</a> 
-                    <ul class="dropdown-menu">
-                        <li><a hrref="#">HTML</a></li>
-                        <li><a hrref="#">CSS</a></li>
-                        <li><a hrref="#">JAVA</a></li>
-                    </ul>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Unknown <b class="caret"></b></a>
+                        <ul class="dropdown-menu">    
+                            <li><a hrref="#">Lorem ipsum</a></li>
+                            <li><a hrref="#">Lorem ipsum</a></li>
+                            <li><a hrref="#">Lorem ipsum</a></li>
+                            <li><a hrref="#">Lorem ipsum</a></li>
+                        </ul>
                     </li>
                 </ul>
-            </div>    
-        </div>  
-   </div>    
+            </div>
+        </div>
+     </div>
+        <!--Jumbotron goes here-->
+    <div class="container">
+        <div class="jumbotron">
+            <div class="text-centre">
+            <h1>Hello world</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed nisl rutrum, consequat purus quis, convallis ipsum. Suspendisse molestie sem mauris. Vestibulum molestie lacinia nulla eu mattis. Proin porttitor leo nec ante ultrices, vel luctus ligula tincidunt. In id diam sed lectus iaculis volutpat. Proin porttitor libero metus, in rutrum metus vestibulum ac. Maecenas vitae iaculis lectus. Nullam eget aliquet nibh. Vivamus sed lacinia ex, at hendrerit turpis. Cras ac feugiat risus, non lacinia libero. Aliquam fermentum dignissim dignissim. In viverra in urna id porttitor. Suspendisse tempor libero eu erat vehicula facilisis.</p>
+                <a class="btn btn-default">Watch now</a>
+                <a class="btn btn-info">Tweet It</a>
+                </div>
+            </div>
+        </div>
+    
+    <!--grd system-->
+    
+    <div class="container">
+        
+        <div class="row">
+            
+            <div class="col-md-3">
+            1
+             <h3><a href="#">News</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed nisl rutrum, consequat purus quis, convallis ipsum. Suspendisse molestie sem mauris. Vestibulum molestie lacinia nulla eu mattis. Proin porttitor leo nec ante ultrices, vel luctus ligula tincidunt. In id diam sed lectus iaculis volutpat. Proin porttitor libero metus, in rutrum metus vestibulum ac. Maecenas vitae iaculis lectus. Nullam eget aliquet nibh. Vivamus sed lacinia ex, at hendrerit turpis. Cras ac feugiat risus, non lacinia libero. Aliquam fermentum dignissim dignissim. In viverra in urna id porttitor. Suspendisse tempor libero eu erat vehicula facilisis</p>
+                <a href="#" class="btn btn-default">Read More</a>
+            </div>
+            
+            <div class="col-md-3">
+            2
+             <h3><a href="#">More News</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed nisl rutrum, consequat purus quis, convallis ipsum. Suspendisse molestie sem mauris. Vestibulum molestie lacinia nulla eu mattis. Proin porttitor leo nec ante ultrices, vel luctus ligula tincidunt. In id diam sed lectus iaculis volutpat. Proin porttitor libero metus, in rutrum metus vestibulum ac. Maecenas vitae iaculis lectus. Nullam eget aliquet nibh. Vivamus sed lacinia ex, at hendrerit turpis. Cras ac feugiat risus, non lacinia libero. Aliquam fermentum dignissim dignissim. In viverra in urna id porttitor. Suspendisse tempor libero eu erat vehicula facilisis</p>
+                <a href="#" class="btn btn-default">Read More</a>   
+            </div>
+            
+            <div class="col-md-3">
+            3
+                <h3><a href="#">Even More News</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed nisl rutrum, consequat purus quis, convallis ipsum. Suspendisse molestie sem mauris. Vestibulum molestie lacinia nulla eu mattis. Proin porttitor leo nec ante ultrices, vel luctus ligula tincidunt. In id diam sed lectus iaculis volutpat. Proin porttitor libero metus, in rutrum metus vestibulum ac. Maecenas vitae iaculis lectus. Nullam eget aliquet nibh. Vivamus sed lacinia ex, at hendrerit turpis. Cras ac feugiat risus, non lacinia libero. Aliquam fermentum dignissim dignissim. In viverra in urna id porttitor. Suspendisse tempor libero eu erat vehicula facilisis</p>
+                <a href="#" class="btn btn-default">Read More</a>
+            </div>
+            
+            <div class="col-md-3">
+            4
+                <h3><a href="#">Even More News Than That</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed nisl rutrum, consequat purus quis, convallis ipsum. Suspendisse molestie sem mauris. Vestibulum molestie lacinia nulla eu mattis. Proin porttitor leo nec ante ultrices, vel luctus ligula tincidunt. In id diam sed lectus iaculis volutpat. Proin porttitor libero metus, in rutrum metus vestibulum ac. Maecenas vitae iaculis lectus. Nullam eget aliquet nibh. Vivamus sed lacinia ex, at hendrerit turpis. Cras ac feugiat risus, non lacinia libero. Aliquam fermentum dignissim dignissim. In viverra in urna id porttitor. Suspendisse tempor libero eu erat vehicula facilisis</p>
+                <a href="#" class="btn btn-default">Read More</a>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+<!--footer-->    
+        <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text pull-right">Site Built By TJ Courtney</p>
+            <a class="navbar-btn btn-success btn pull-left">Contact us</a>
+            </div>
+        </div>     
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <script src="js/bootstrap.js"></script>
     </body>
-</html>
+</html>    
